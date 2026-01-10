@@ -19,9 +19,9 @@
     <a href="#usage"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/yamanist0/dm-to-dataset/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/yamanist0/auto-dm-to-dataset/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
-    <a href="https://github.com/yamanist0/dm-to-dataset/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/yamanist0/auto-dm-to-dataset/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -90,11 +90,11 @@ You need to have Python installed on your system.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/yamanist0/dm-to-dataset.git
+   git clone https://github.com/yamanist0/auto-dm-to-dataset.git
    ```
 2. Navigate to the directory
    ```sh
-   cd dm-to-dataset
+   cd auto-dm-to-dataset
    ```
 3. Run the interactive CLI
    ```sh
@@ -146,7 +146,7 @@ python main.py run
 - [ ] Add Telegram support
 - [ ] Token count estimation
 
-See the [open issues](https://github.com/yamanist0/dm-to-dataset/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/yamanist0/auto-dm-to-dataset/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,15 +174,15 @@ Distributed under the Unlicense License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/yamanist0/dm-to-dataset.svg?style=for-the-badge
-[contributors-url]: https://github.com/yamanist0/dm-to-dataset/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/yamanist0/dm-to-dataset.svg?style=for-the-badge
-[forks-url]: https://github.com/yamanist0/dm-to-dataset/network/members
-[stars-shield]: https://img.shields.io/github/stars/yamanist0/dm-to-dataset.svg?style=for-the-badge
-[stars-url]: https://github.com/yamanist0/dm-to-dataset/stargazers
-[issues-shield]: https://img.shields.io/github/issues/yamanist0/dm-to-dataset.svg?style=for-the-badge
-[issues-url]: https://github.com/yamanist0/dm-to-dataset/issues
-[license-shield]: https://img.shields.io/github/license/yamanist0/dm-to-dataset.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/yamanist0/auto-dm-to-dataset.svg?style=for-the-badge
+[contributors-url]: https://github.com/yamanist0/auto-dm-to-dataset/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/yamanist0/auto-dm-to-dataset.svg?style=for-the-badge
+[forks-url]: https://github.com/yamanist0/auto-dm-to-dataset/network/members
+[stars-shield]: https://img.shields.io/github/stars/yamanist0/auto-dm-to-dataset.svg?style=for-the-badge
+[stars-url]: https://github.com/yamanist0/auto-dm-to-dataset/stargazers
+[issues-shield]: https://img.shields.io/github/issues/yamanist0/auto-dm-to-dataset.svg?style=for-the-badge
+[issues-url]: https://github.com/yamanist0/auto-dm-to-dataset/issues
+[license-shield]: https://img.shields.io/github/license/yamanist0/auto-dm-to-dataset.svg?style=for-the-badge
 [license-url]: https://choosealicense.com/licenses/unlicense/
 [product-screenshot]: screenshot.png
 [Python.org]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
