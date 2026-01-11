@@ -388,6 +388,7 @@ def run_interactive_mode(config):
             print(json.dumps(config, indent=4, ensure_ascii=False))
             input("\npress enter to continue")
             
+        # set assistant names
         elif choice == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print(TITLE)
