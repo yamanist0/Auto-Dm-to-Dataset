@@ -439,6 +439,7 @@ def run_interactive_mode(config):
                     print("this path already exists")
             input("\npress enter to continue")
             
+        # add tiktok path
         elif choice == 6:
             os.system('cls' if os.name == 'nt' else 'clear')
             print(TITLE)
