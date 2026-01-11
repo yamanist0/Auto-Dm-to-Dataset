@@ -380,6 +380,7 @@ def run_interactive_mode(config):
                 import time
                 time.sleep(1)
         
+        # view current configuration
         elif choice == 1:
             os.system('cls' if os.name == 'nt' else 'clear')
             print(TITLE)
