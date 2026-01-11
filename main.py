@@ -425,6 +425,7 @@ def run_interactive_mode(config):
                     print("this path already exists")
             input("\npress enter to continue")
             
+        # add whatsapp path
         elif choice == 5:
             os.system('cls' if os.name == 'nt' else 'clear')
             print(TITLE)
