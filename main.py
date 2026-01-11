@@ -311,7 +311,8 @@ def interactive_menu(title, options):
                 print(f" > {option}")
             else:
                 print(f"   {option}")
-                
+
+        #  check for keypress without blocking
         if os.name == 'nt':
             import msvcrt
             key = msvcrt.getch()
