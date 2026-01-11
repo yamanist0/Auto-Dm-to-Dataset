@@ -399,6 +399,7 @@ def run_interactive_mode(config):
                 print("assistant names successfully saved")
             input("\npress enter to continue")
             
+        # add new category
         elif choice == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print(TITLE)
@@ -410,6 +411,7 @@ def run_interactive_mode(config):
                 print("category successfully saved")
             input("\npress enter to continue")
             
+        # add instagram path
         elif choice == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print(TITLE)
