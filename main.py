@@ -456,6 +456,7 @@ def run_interactive_mode(config):
                         print("this setting already exists")
             input("\npress enter to continue")
             
+        # exit
         elif choice == 7:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("exiting...")
