@@ -380,7 +380,6 @@ def run_interactive_mode(config):
                 import time
                 time.sleep(1)
         
-        # view current configuration
         elif choice == 1:
             os.system('cls' if os.name == 'nt' else 'clear')
             print(TITLE)
@@ -388,7 +387,6 @@ def run_interactive_mode(config):
             print(json.dumps(config, indent=4, ensure_ascii=False))
             input("\npress enter to continue")
             
-        # set assistant names
         elif choice == 2:
             os.system('cls' if os.name == 'nt' else 'clear')
             print(TITLE)
@@ -399,7 +397,6 @@ def run_interactive_mode(config):
                 print("assistant names successfully saved")
             input("\npress enter to continue")
             
-        # add new category
         elif choice == 3:
             os.system('cls' if os.name == 'nt' else 'clear')
             print(TITLE)
@@ -411,7 +408,6 @@ def run_interactive_mode(config):
                 print("category successfully saved")
             input("\npress enter to continue")
             
-        # add instagram path
         elif choice == 4:
             os.system('cls' if os.name == 'nt' else 'clear')
             print(TITLE)
@@ -425,7 +421,6 @@ def run_interactive_mode(config):
                     print("this path already exists")
             input("\npress enter to continue")
             
-        # add whatsapp path
         elif choice == 5:
             os.system('cls' if os.name == 'nt' else 'clear')
             print(TITLE)
@@ -439,7 +434,6 @@ def run_interactive_mode(config):
                     print("this path already exists")
             input("\npress enter to continue")
             
-        # add tiktok path
         elif choice == 6:
             os.system('cls' if os.name == 'nt' else 'clear')
             print(TITLE)
@@ -456,7 +450,7 @@ def run_interactive_mode(config):
                         print("this setting already exists")
             input("\npress enter to continue")
             
-        # exit
+            
         elif choice == 7:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("exiting...")
