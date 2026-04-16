@@ -238,7 +238,6 @@ def process_all(config):
             if conv:
                 final_output_data.append(conv)
 
-    # process whatsapp data
     for wp_path in config.get("whatsapp_paths", []):
         for rel_type in categories:
             rel_path = os.path.join(wp_path, rel_type)
@@ -259,7 +258,6 @@ def process_all(config):
                 if conv:
                     final_output_data.append(conv)
 
-    # process tiktok data
     for tk_entry in config.get("tiktok_paths", []):
         tk_path = tk_entry.get("path")
         tk_rel_type = tk_entry.get("category")
@@ -450,7 +448,7 @@ def run_interactive_mode(config):
                         print("this setting already exists")
             input("\npress enter to continue")
             
-            
+
         elif choice == 7:
             os.system('cls' if os.name == 'nt' else 'clear')
             print("exiting...")
