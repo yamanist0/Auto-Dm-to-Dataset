@@ -437,11 +437,11 @@ def run_interactive_mode(config):
         elif choice == 6:
             os.system('cls' if os.name == 'nt' else 'clear')
             print(TITLE)
-            tk_path = input("tiktok json file path ")
-            if tk_path.strip():
+            tcl_path = input("tiktok json file path ")
+            if tcl_path.strip():
                 tk_cat = input("category for tiktok file (e.g. friend) ")
                 if tk_cat.strip():
-                    new_tk = {"path": tk_path.strip(), "category": tk_cat.strip()}
+                    new_tk = {"path": tcl_path.strip(), "category": tk_cat.strip()}
                     if new_tk not in config["tiktok_paths"]:
                         config["tiktok_paths"].append(new_tk)
                         save_config(config)
