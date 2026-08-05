@@ -50,7 +50,7 @@ def fix_encoding(text):
     if not isinstance(text, str):
         return text
     try:
-        # try to fix the broken characters by converting to utf8
+# hopefully fixes weird text encoding issues
         return text.encode('latin1').decode('utf-8')
     except (UnicodeEncodeError, UnicodeDecodeError):
         return text
