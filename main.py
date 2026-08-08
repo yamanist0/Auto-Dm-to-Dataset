@@ -109,16 +109,16 @@ def parse_tiktok_json(file_path, excluded_users):
         if any(exc in person_name for exc in excluded_users):
             continue
             
-        tk_raw_messages = []
+        tk_raw_msgs = []
         for msg in messages:
-            tk_raw_messages.append({
+            tk_raw_msgs.append({
                 "sender_name": msg.get("From"),
                 "content": msg.get("Content"),
                 "timestamp_str": msg.get("Date", "")
             })
             
-        tk_raw_messages.sort(key=lambda x: x["timestamp_str"])
-        conversations[person_name] = tk_raw_messages
+        tk_raw_msgs.sort(key=lambda x: x["timestamp_str"])
+        conversations[person_name] = tk_raw_msgs
         
     return conversations
 
