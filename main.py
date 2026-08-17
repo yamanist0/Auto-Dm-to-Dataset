@@ -369,8 +369,8 @@ def run_interactive_mode(config):
             print(json.dumps(config, indent=4, ensure_ascii=False))
             print("\nare you sure about these settings\n")
             
-            confirm_options = ["1. yes start process", "2. no return to menu"]
-            confirm_choice = interactive_menu(TITLE + "\nsettings confirmation", confirm_options)
+            conf_opts = ["1. yes start process", "2. no return to menu"]
+            confirm_choice = interactive_menu(TITLE + "\nsettings confirmation", conf_opts)
             
             if confirm_choice == 0:
                 print("\nstarting process\n")
