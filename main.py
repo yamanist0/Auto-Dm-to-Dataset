@@ -231,7 +231,7 @@ def process_all(config):
                             data = json.load(f)
                             all_conversations_map[rel_type][person_folder].extend(data.get("messages", []))
 
-    # process instagram data
+# now we sort and group the instagram chats we found
     for rel_type, persons_dict in all_conversations_map.items():
         for person_folder, all_raw_messages in persons_dict.items():
             if not all_raw_messages:
