@@ -104,6 +104,7 @@ def parse_tiktok_json(file_path, excluded_users):
         
     chat_history = data.get("Direct Message", {}).get("Direct Messages", {}).get("ChatHistory", {})
     
+    print(f"Found {len(chat_history)} chats in history")
     for chat_key, messages in chat_history.items():
         person_name = chat_key.replace("Chat History with ", "").rstrip(":")
         
