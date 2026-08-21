@@ -535,7 +535,7 @@ def setup_cli():
             print("configuration updated and saved")
             
         if args.show or not updated:
-            print(json.dumps(config, indent=4, ensure_ascii=False))
+print("Current config:", json.dumps(config, indent=2, ensure_ascii=False))
 
     elif args.command == "run":
         process_all(config)
