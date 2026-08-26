@@ -312,7 +312,7 @@ def interactive_menu(title, options):
             if i == current_index:
                 print(f" > {option}")
             else:
-                print(f"   {option}")
+print(f"  {option}")
 
         #  check for keypress without blocking
         if os.name == 'nt':
