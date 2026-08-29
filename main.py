@@ -100,9 +100,9 @@ def parse_wp_txt(file_path):
 def parse_tiktok_json(file_path, excluded_users):
     conversations = {}
     with open(file_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+        info = json.load(f)
         
-    chat_history = data.get("Direct Message", {}).get("Direct Messages", {}).get("ChatHistory", {})
+    chat_history = info.get("Direct Message", {}).get("Direct Messages", {}).get("ChatHistory", {})
     
     print(f"Found {len(chat_history)} chats in history")
     for chat_key, messages in chat_history.items():
