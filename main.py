@@ -131,6 +131,7 @@ def filter_and_group_messages(raw_messages, rel_type, config):
         if not content:
             continue
             
+        # Clean up any weird text encoding issues
         content = fix_encoding(content)
         
         stripped_content = content.strip()
