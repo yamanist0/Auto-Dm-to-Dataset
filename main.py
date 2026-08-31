@@ -305,6 +305,7 @@ def process_all(config):
 def interactive_menu(title, options):
     current_index = 0
     while True:
+        # this clears the terminal screen for a clean look
         os.system('cls' if os.name == 'nt' else 'clear')
         print(title)
         print("please use up down arrow keys to navigate and press enter\n")
