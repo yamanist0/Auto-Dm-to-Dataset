@@ -248,8 +248,8 @@ def process_all(config):
             if not os.path.exists(rel_path):
                 continue
                 
-            txt_files = glob.glob(os.path.join(rel_path, "*.txt"))
-            for tf in txt_files:
+            txts = glob.glob(os.path.join(rel_path, "*.txt"))
+            for tf in txts:
                 file_name = os.path.basename(tf)
                 if any(exc in file_name for exc in excluded_users):
                     continue
