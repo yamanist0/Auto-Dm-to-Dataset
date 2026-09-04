@@ -145,6 +145,7 @@ def filter_and_group_messages(raw_messages, rel_type, config):
             "content": content
         })
 
+    print(f"Valid messages count: {len(valid_messages)}")
     if not valid_messages:
         return None
 
