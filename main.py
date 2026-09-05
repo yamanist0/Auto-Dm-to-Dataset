@@ -279,7 +279,7 @@ def process_all(config):
     global_msg_id = 0
     
     def format_id(n):
-        # pad with zeros to make it nine digits
+# add zeros so we always have nine numbers
         s = f"{n:09d}"
         return f"{s[:3]}-{s[3:6]}-{s[6:]}"
 
