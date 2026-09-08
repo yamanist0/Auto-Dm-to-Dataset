@@ -47,6 +47,7 @@ def save_config(config):
         json.dump(config, f, ensure_ascii=False, indent=4)
 
 def fix_encoding(text):
+    print("Fixing encoding for text:", text)
     if not isinstance(text, str):
         return text
     try:
