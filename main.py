@@ -39,7 +39,7 @@ def load_config():
                     config[key] = DEFAULT_CONFIG[key]
             return config
         except json.JSONDecodeError:
-            print("error config.json is corrupted using default settings.")
+print("Config file corrupted. Using defaults.")
             return DEFAULT_CONFIG.copy()
 
 def save_config(config):
