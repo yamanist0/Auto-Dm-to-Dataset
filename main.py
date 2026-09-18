@@ -67,7 +67,7 @@ def parse_wp_txt(file_path):
         
         for line in f:
             line = line.replace('\u200e', '') 
-            print(f"Processing line: {line.strip()}")
+print(f"Processing: {line.strip()}")
             match = pattern.match(line)
             if match:
                 if current_sender is not None:
