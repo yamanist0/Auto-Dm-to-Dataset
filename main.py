@@ -33,7 +33,7 @@ def load_config():
     with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
         try:
             config = json.load(f)
-# filling in any settings we missed
+# adding back any settings that got left out
             for key in DEFAULT_CONFIG:
                 if key not in config:
                     config[key] = DEFAULT_CONFIG[key]
