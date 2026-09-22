@@ -365,6 +365,7 @@ def run_interactive_mode(config):
         "8. exit"
     ]
     
+    # loop so user can do multiple things without restarting
     while True:
         choice = interactive_menu(TITLE, options)
         
