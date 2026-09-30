@@ -302,8 +302,8 @@ def process_all(config):
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(final_output_data, f, ensure_ascii=False, indent=2)
         
-    print(f"total {len(final_output_data)} conversations converted. output {output_file}")
-    print(f"total words used {total_words}")
+print(f"Saved {len(final_output_data)} conversations to {output_file}")
+print(f"Total words: {total_words}")
 
 def interactive_menu(title, options):
     current_index = 0
