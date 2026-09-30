@@ -500,8 +500,8 @@ def setup_cli():
             updated = True
             
         if args.add_category:
-            cat_name, cat_prompt = args.add_category
-            config["categories"][cat_name] = cat_prompt
+            cat_name, cat_pmt = args.add_category
+            config["categories"][cat_name] = cat_pmt
             print(f"category added {cat_name}")
             updated = True
             
