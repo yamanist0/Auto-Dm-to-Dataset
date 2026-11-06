@@ -58,6 +58,7 @@ def fix_encoding(text):
 
 def parse_wp_txt(file_path):
     messages = []
+    print(f"Opening file: {file_path}")
     with open(file_path, 'r', encoding='utf-8') as f:
         pattern = re.compile(r"^(\d{1,2}\.\d{1,2}\.\d{2,4} \d{1,2}:\d{2}) - ([^:]+): (.*)$")
         sys_pattern = re.compile(r"^(\d{1,2}\.\d{1,2}\.\d{2,4} \d{1,2}:\d{2}) - (.*)$")
