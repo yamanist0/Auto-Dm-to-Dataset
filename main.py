@@ -284,6 +284,7 @@ def process_all(config):
     def format_id(n):
 # add zeros so we always have nine numbers
         s = f"{n:09d}"
+        print(f"s = {s}")
         return f"{s[:3]}-{s[3:6]}-{s[6:]}"
 
     for conv in final_output_data:
